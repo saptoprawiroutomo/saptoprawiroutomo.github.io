@@ -14,6 +14,10 @@
     />
     <!-- Bootstap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- akhir AOS -->
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- akhir My CSS -->
@@ -78,13 +82,13 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
             <p>
               Hai semua terimakasih sudah menunjungi My website. Disi web ini anda akan mendapatkan pengalaman berselancar di dunia maya
               dengan sangat mudah, di sini juga anda bisa mencari hal hal yang anda butuhkan
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <p>
               Produk yang kita jual mempunyai kualitas yang sangat bagus serta sudah di tes oleh orang yang sangat berpengalaman dalam
               bidang pengetesan produknya, saya tidak jago dalam memuat kata kata seperti anda, saya buruk dalam buat kata kata
@@ -111,7 +115,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <img src="img/Project/1.jpg" class="card-img-top" alt="project1" />
               <div class="card-body">
                 <p class="card-text">Data Center di Perusahaan kami.</p>
@@ -119,7 +123,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <img src="img/Project/2.jpg" class="card-img-top" alt="project2" />
               <div class="card-body">
                 <p class="card-text">Cable ing rapi dan tidak berantakan.</p>
@@ -127,7 +131,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
               <img src="img/Project/3.jpg" class="card-img-top" alt="project3" />
               <div class="card-body">
                 <p class="card-text">monitoring server akses.</p>
@@ -135,7 +139,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
               <img src="img/Project/4.jpg" class="card-img-top" alt="project4" />
               <div class="card-body">
                 <p class="card-text">Selalu Mengutamakan keamanan data anda.</p>
@@ -143,7 +147,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
               <img src="img/Project/5.jpg" class="card-img-top" alt="project5" />
               <div class="card-body">
                 <p class="card-text">Syncronize dengan data miroring serta derdapat firewall.</p>
@@ -151,7 +155,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="600">
               <img src="img/Project/6.jpg" class="card-img-top" alt="project6" />
               <div class="card-body">
                 <p class="card-text">Mudah dalam akses data.</p>
@@ -159,7 +163,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="700">
               <img src="img/Project/7.jpg" class="card-img-top" alt="project7" />
               <div class="card-body">
                 <p class="card-text">Solusi data anda supaya aman dan tidak dapat dibobol.</p>
@@ -230,11 +234,18 @@
       </p>
     </footer>
     <!-- akhir footer -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbyeY7-HlaMDvrd4WoJtpip3sCgI5hRIpbqFaTUstMANWx9oUplF1aucrOz1pDVI9EIo/exec";
       const form = document.forms["submit-to-google-sheet"];
